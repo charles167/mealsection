@@ -1,0 +1,74 @@
+:root {
+  --font: "Inter", sans-serif;
+  --shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.09);
+  --text-color: #181c14;
+  --default-color: #a4161bc0;
+}
+
+.footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.233);
+  padding: 60px;
+}
+.company-header {
+  font-size: 25px;
+  span {
+    color: var(--default-color);
+  }
+}
+.about-company {
+  font-size: 14px;
+  margin-top: 10px;
+  padding-right: 20px;
+  color: #1e1e1e97;
+}
+.footer-head {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.footer-head::first-letter {
+  font-size: 20px;
+}
+.footer-link-list {
+  display: flex;
+  flex-direction: column !important;
+  gap: 10px;
+  margin-top: 10px;
+  padding: 0;
+  li {
+    list-style-type: none;
+    .Footer-Link {
+      color: #1e1e1e97;
+      font-size: 14px;
+      text-decoration: none;
+      text-transform: capitalize;
+    }
+  }
+}
+.contact {
+  font-size: 15px;
+  color: #1e1e1e97;
+}
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.socials div {
+  cursor: pointer;
+}
+.copywrite {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #00000096;
+  background-color: #0000000f;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 50px 20px;
+  }
+  .footer-head {
+    margin-top: 20px;
+  }
+}

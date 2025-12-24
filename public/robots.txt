@@ -1,0 +1,29 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Disallow private/authenticated pages
+Disallow: /profile
+Disallow: /wallet
+Disallow: /orders
+Disallow: /checkout
+Disallow: /cart
+Disallow: /orderdetails
+
+# Disallow auth pages
+Disallow: /login
+Disallow: /signup
+Disallow: /reset-password
+Disallow: /onboarding
+
+# Allow public pages
+Allow: /
+Allow: /vendors
+Allow: /vendor/*
+Allow: /meals
+Allow: /meals/*
+Allow: /contact
+Allow: /promotions
+
+# Sitemap location
+Sitemap: https://mealsection.com/sitemap.xml
